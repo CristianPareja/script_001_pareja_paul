@@ -1,7 +1,7 @@
 .container{
     font-family: Arial, Helvetica, sans-serif;
     background-color: blueviolet;
-    display: flex;
+
 }
 .demo{
     display: flex;
@@ -21,12 +21,14 @@
 
 }
 
-.content:hover{
+.fizz:hover{
     background-color: beige;
-    border: 1px solid black;
-    transform: translateY(-5px) translateX(5px) rotate(5deg);
 }
 
-.juan{
-    background-color: brown;
+.buzz:hover{
+    transform: translateY(-5px);
+}
+
+.fizzbuzz:hover{
+    transform: rotate(40deg);
 }
