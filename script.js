@@ -56,6 +56,6 @@ function buttonClicked() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("matrix-container");
-    createMatrix(5, container, 2, 3); // matriz inicial
+    createMatrix(5, container, 2, 3); 
     document.getElementById("generate").addEventListener("click", buttonClicked);
 });
